@@ -523,7 +523,6 @@
                     const statusTeks = statusTransaksi === 'Pinjam' ? 'Pengambilan' : 'Pengembalian';
                     const koordinatStr = `${userLat.toFixed(6)}, ${userLon.toFixed(6)} (${pembulatanJarak}m dari kantor)`;
 
-                    // KIRIM DATA KE GOOGLE SHEETS SECARA ONLINE
                     const payload = {
                         waktu: tglWaktuFormat,
                         nama: nama,
